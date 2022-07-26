@@ -43,7 +43,7 @@ export const Grid: FC = () => {
             </GridItem>
             
         </ChakraGrid>
-        <Box width={["100%", "100%", "80%", "80%"]} marginTop="20px">
+        {/* <Box width={["100%", "100%", "80%", "80%"]} marginTop="20px">
             <Heading  alignSelf="start">Projects</Heading>
         </Box>
         <ChakraGrid
@@ -64,7 +64,7 @@ export const Grid: FC = () => {
                 </Box>
                 <Image transition="all .2s cubic-bezier(0.8,0.04,0.4,1)" _groupHover={{ transform: 'translateY(70px)', opacity: 0 }} zIndex={-10} height="100%" width="100%" objectFit="cover" src="http://localhost:3000/flow-fantasy-logo.png" borderRadius="10px"/>
             </GridItem>
-        </ChakraGrid>
+        </ChakraGrid> */}
         </Flex>
     );
 }
