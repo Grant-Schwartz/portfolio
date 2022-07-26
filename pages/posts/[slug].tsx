@@ -8,7 +8,7 @@ import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import Head from 'next/head';
 import dayjs from "dayjs"
 import Image from 'next/image'
-import { Container, Text, Heading, Divider } from '@chakra-ui/react'
+import { Container, Text, Heading, Divider, Center, Box } from '@chakra-ui/react'
 import styles from 'styles/post.module.css';
 import { Nav } from "components/Nav"
 import { MDXComponents } from "components/MDXComponents"
@@ -21,6 +21,7 @@ export default function Post({ post: { source, frontmatter } }: any) {
         </Head>
         <Nav />
         <div className={styles.article_container}>
+            {frontmatter.hero_image ? <Box  width="100%" height="200px" marginBottom="10px"  bgColor={`${frontmatter.color}.100`} position="relative" borderRadius="20px"><Center><Image src={frontmatter.hero_image} layout="fill" objectFit="contain"/></Center></Box> : null}
             <Heading color={`${frontmatter.color}.500`}>{frontmatter.title}</Heading>
             <Text color={`${frontmatter.color}.800`}>
                 {dayjs(frontmatter.publishedAt).format('MMMM D, YYYY')} &mdash;{' '}

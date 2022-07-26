@@ -32,6 +32,7 @@ export async function getArticleFromSlug(slug: string) {
         title: data.title,
         publishedAt: data.publishedAt,
         color: data.color,
+        hero_image: data.hero_image || null,
         readingTime: readingTime(source.toString()).text,
         ...data,
       },
