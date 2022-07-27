@@ -4,6 +4,7 @@ import { MDXRemote } from 'next-mdx-remote'
 import rehypeHighlight from 'rehype-highlight'
 import rehypeCodeTitles from 'rehype-code-titles'
 import rehypeSlug from 'rehype-slug'
+import remarkRehype from 'remark-rehype'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import Head from 'next/head';
 import dayjs from "dayjs"
