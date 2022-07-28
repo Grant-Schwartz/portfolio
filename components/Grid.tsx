@@ -1,5 +1,6 @@
 import { ArrowForwardIcon } from "@chakra-ui/icons";
-import { Box, Center, Grid as ChakraGrid, GridItem, Heading, Image, Link, Text, Flex } from "@chakra-ui/react";
+import { Box, Center, Grid as ChakraGrid, GridItem, Heading, Image as ChakraImage, Link, Text, Flex } from "@chakra-ui/react";
+import Image from 'next/image';
 import Head from "next/head";
 import { FC } from "react";
 
@@ -18,7 +19,7 @@ export const Grid: FC = () => {
                 <Text fontSize={["18px","18px","18px","20px"]} fontWeight="550" lineHeight="25px" letterSpacing="-0.02em">👋 Hey! I&aposm Grant. I&aposm a coder, designer, entrepreneur, and student from <Text as="span" color="blue.500">NYC</Text>.</Text>
             </GridItem>
             <GridItem rowSpan={[8,8,4,4]} colSpan={[2, 2, 1, 1]} transition="all .2s cubic-bezier(0.8,0.04,0.4,1)" _hover={{ transform: 'scale(0.98)' }}>
-                <Image alt="an image of me" height="100%" width="100%" objectFit="cover" src="http://localhost:3000/me.jpeg" borderRadius="10px"/>
+                <ChakraImage alt="an image of me" height="100%" width="100%" objectFit="cover" src="/me.jpeg" borderRadius="10px"/>
             </GridItem>
             <GridItem as={Link} href="/posts/flow-fantasy" data-group display="flex" rowSpan={[4,4,2,2]} colSpan={[2, 2, 1, 1]} borderRadius="10px" bgGradient='radial(100% 100% at 100% 0%, #ED64A6 0%, rgba(255, 255, 255, 0) 130%)' padding="10px" transition="all .2s cubic-bezier(0.8,0.04,0.4,1)" _hover={{ transform: 'scale(0.98)' }}>
                 <Text  fontSize={["18px","18px","18px","20px"]} fontWeight="550" lineHeight="25px" letterSpacing="-0.02em">Learn about how I built my first company, Flow Fantasy, and <Text as="span" color="pink.500">how I royally f*#cked it up</Text></Text>
