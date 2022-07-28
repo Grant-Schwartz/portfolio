@@ -1,3 +1,9 @@
 body {
   background-image: url('/bg.svg') !important;
 }
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none !important;
+}

@@ -1,4 +1,4 @@
-import { Alert, Box, Code, Divider, Heading, Text } from "@chakra-ui/react";
+import { Alert, Box, Code, Divider, Heading, Text, Link } from "@chakra-ui/react";
 
 const Quote = (props: any) => {
     const bgColor = {
@@ -50,7 +50,9 @@ export const MDXComponents = {
     code: (props: any) => (
       <Box display="flex" flexDirection="column" bg="gray.100" borderTopLeftRadius="20px" borderRadius="20px"><Code borderRadius="10px" background="gray.100" width="100%" padding="10px" fontSize="0.84em" {...props} /></Box>
     ),
-
+    a: (props: any) => (
+      <Link color="blue.600" href={props.url} {...props}>{props.children}</Link>
+    ),
     //eslint-disable-next-line
     br: (props: any) => <Box height="24px" {...props} />,
     //eslint-disable-next-line
