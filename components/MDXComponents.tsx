@@ -1,15 +1,11 @@
 import { Alert, Box, Code, Divider, Heading, Text, Link } from "@chakra-ui/react";
 
 const Quote = (props: any) => {
-    const bgColor = {
-      light: 'blue.50',
-      dark: 'blue.900'
-    };
   
     return (
       <Alert
         mt={4}
-        w="98%"
+        w="100%"
         variant="left-accent"
         status="info"
         css={{
@@ -18,6 +14,7 @@ const Quote = (props: any) => {
             marginLeft: 8
           }
         }}
+        colorScheme="gray"
         {...props}
       />
     );

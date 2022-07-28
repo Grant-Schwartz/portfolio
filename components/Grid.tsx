@@ -32,14 +32,17 @@ export const Grid: FC = () => {
                 <Text fontSize={["18px","18px","18px","20px"]} fontWeight="550" lineHeight="25px" letterSpacing="-0.02em">I'm currently a rising freshman at <Text as="span" color="red.500">Washington University in St. Louis.</Text></Text>
             </GridItem>
             <GridItem display="flex" flexDirection="column" justifyContent="space-between" rowSpan={[4,4,2,2]} colSpan={[2, 2, 1, 1]} borderRadius="10px" bgGradient='radial(100% 100% at 100% 100%, #48BB78 0%, rgba(255, 255, 255, 0) 100%)' padding="10px" transition="all .2s cubic-bezier(0.8,0.04,0.4,1)" _hover={{ transform: 'scale(0.98)' }}>
-                <Text fontSize={["18px","18px","18px","20px"]} fontWeight="550" lineHeight="25px" letterSpacing="-0.02em" color="green.400">You can watch some of my mediocre movies <Link color="black" _hover={{ textDecoration: 'none', opacity: '0.7' }} href="https://www.youtube.com/watch?v=K42ZGXnWAmc" target="_blank">here</Link></Text>
+                <Text fontSize={["18px","18px","18px","20px"]} fontWeight="550" lineHeight="25px" letterSpacing="-0.02em" color="green.400">I was unhappy with <Text as="span" color="black">pocket constitutions</Text>, so I made a new one. You can get it for free <Link color="black" _hover={{ textDecoration: 'none', opacity: '0.7' }} href="/posts/a-well-designed-constitution">here</Link></Text>
                 {/* <ArrowForwardIcon alignSelf="end" w={6} h={6} transform="rotate(-45deg)"/> */}
             </GridItem>
             <GridItem display="flex" flexDirection="column" justifyContent="space-between" rowSpan={[4,4,2,2]} colSpan={[2, 2, 1, 1]} borderRadius="10px" bgGradient='radial(120% 120% at 0% 0%, rgba(168, 181, 197, 0.91411) 0%, rgba(255, 255, 255, 0) 100%)' padding="10px" transition="all .2s cubic-bezier(0.8,0.04,0.4,1)" _hover={{ transform: 'scale(0.98)' }}>
                 <Text fontSize={["18px","18px","18px","20px"]} fontWeight="550" lineHeight="25px" letterSpacing="-0.02em" color="gray.700">Wanna learn more or get in touch?</Text>
-                <Box alignSelf="flex-end" display="flex" flexDirection="column">
-                    <Link _hover={{ textDecoration: 'none', transform: "translateX(-10px)", opacity: "0.7" }} fontSize="20px" fontWeight="600" letterSpacing="-0.015em" margin="0px">GitHub</Link>
-                    <Link _hover={{ textDecoration: 'none', transform: "translateX(-10px)", opacity: "0.7" }} fontSize="20px" fontWeight="600" letterSpacing="-0.015em" margin="0px" marginTop="-5px">Email</Link>
+                <Box alignSelf="flex-end" display="flex" flexDirection="column" alignItems="end">
+                    <Link _hover={{ textDecoration: 'none', transform: "translateX(-10px)", opacity: "0.7" }} fontSize="20px" fontWeight="600" letterSpacing="-0.015em" marginBottom="-5px" href="https://github.com/Grant-Schwartz" target="_blank">GitHub</Link>
+                    <Link _hover={{ textDecoration: 'none', transform: "translateX(-10px)", opacity: "0.7" }} fontSize="20px" fontWeight="600" letterSpacing="-0.015em" marginBottom="-5px" href="https://twitter.com/GrantSchwartz17" target="_blank">Twitter</Link>
+                    <Link _hover={{ textDecoration: 'none', transform: "translateX(-10px)", opacity: "0.7" }} fontSize="20px" fontWeight="600" letterSpacing="-0.015em" margin="0px" href="https://www.linkedin.com/in/grant-w-schwartz/" target="_blank">LinkedIn</Link>
+
+
                 </Box>
             </GridItem>
             

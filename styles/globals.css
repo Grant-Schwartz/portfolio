@@ -7,3 +7,12 @@ a {
 a:hover {
   text-decoration: none !important;
 }
+.link {
+  color: #2B6CB0 !important;
+}
+.link:visited {
+  color: #2B6CB0 !important;
+}
+.link:active {
+  color: #2B6CB0 !important;
+}
