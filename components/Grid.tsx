@@ -16,7 +16,7 @@ export const Grid: FC = () => {
             gap={4}
         >
             <GridItem rowSpan={[4,4,2,2]} colSpan={[2, 2, 1, 1]} borderRadius="10px" bgGradient='radial(130% 130% at 100% 100%, rgba(255, 255, 255, 0) 15%, blue.100 100%)' padding="10px" transition="all .2s cubic-bezier(0.8,0.04,0.4,1)" _hover={{ transform: 'scale(0.98)' }}>
-                <Text fontSize={["18px","18px","18px","20px"]} fontWeight="550" lineHeight="25px" letterSpacing="-0.02em">👋 Hey! I&aposm Grant. I&aposm a coder, designer, entrepreneur, and student from <Text as="span" color="blue.500">NYC</Text>.</Text>
+                <Text fontSize={["18px","18px","18px","20px"]} fontWeight="550" lineHeight="25px" letterSpacing="-0.02em">👋 Hey! I&#39;m Grant. I&#39;m a coder, designer, entrepreneur, and student from <Text as="span" color="blue.500">NYC</Text>.</Text>
             </GridItem>
             <GridItem rowSpan={[8,8,4,4]} colSpan={[2, 2, 1, 1]} transition="all .2s cubic-bezier(0.8,0.04,0.4,1)" _hover={{ transform: 'scale(0.98)' }}>
                 <ChakraImage alt="an image of me" height="100%" width="100%" objectFit="cover" src="/me.jpeg" borderRadius="10px"/>
@@ -30,7 +30,7 @@ export const Grid: FC = () => {
                 <ArrowForwardIcon transition="all .2s cubic-bezier(0.8,0.04,0.4,1)" _groupHover={{ transform: 'rotate(-45deg)'}} h={6} w={6} alignSelf="end"/>
             </GridItem>
             <GridItem rowSpan={[4,4,2,2]} colSpan={[2, 2, 1, 1]} borderRadius="10px" bgGradient='radial(120% 120% at 0% 100%, red.200 0%, rgba(255, 255, 255, 0) 100%)' padding="10px" transition="all .2s cubic-bezier(0.8,0.04,0.4,1)" _hover={{ transform: 'scale(0.98)' }}>
-                <Text fontSize={["18px","18px","18px","20px"]} fontWeight="550" lineHeight="25px" letterSpacing="-0.02em">I&aposm currently a rising freshman at <Text as="span" color="red.500">Washington University in St. Louis.</Text></Text>
+                <Text fontSize={["18px","18px","18px","20px"]} fontWeight="550" lineHeight="25px" letterSpacing="-0.02em">I&#39;m currently a rising freshman at <Text as="span" color="red.500">Washington University in St. Louis.</Text></Text>
             </GridItem>
             <GridItem display="flex" flexDirection="column" justifyContent="space-between" rowSpan={[4,4,2,2]} colSpan={[2, 2, 1, 1]} borderRadius="10px" bgGradient='radial(100% 100% at 100% 100%, #48BB78 0%, rgba(255, 255, 255, 0) 100%)' padding="10px" transition="all .2s cubic-bezier(0.8,0.04,0.4,1)" _hover={{ transform: 'scale(0.98)' }}>
                 <Text fontSize={["18px","18px","18px","20px"]} fontWeight="550" lineHeight="25px" letterSpacing="-0.02em" color="green.400">I was unhappy with <Text as="span" color="black">pocket constitutions</Text>, so I made a new one. You can get it for free <Link color="black" _hover={{ textDecoration: 'none', opacity: '0.7' }} href="/posts/a-well-designed-constitution">here</Link></Text>
