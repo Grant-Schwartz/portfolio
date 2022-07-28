@@ -25,7 +25,7 @@ export const Grid: FC = () => {
                 <Text  fontSize={["18px","18px","18px","20px"]} fontWeight="550" lineHeight="25px" letterSpacing="-0.02em">Learn about how I built my first company, Flow Fantasy, and <Text as="span" color="pink.500">how I royally f*#cked it up</Text></Text>
                 <ArrowForwardIcon transition="all .2s cubic-bezier(0.8,0.04,0.4,1)" _groupHover={{ transform: 'rotate(-45deg)'}} h={6} w={6} alignSelf="end"/>
             </GridItem>
-            <GridItem as={Link} href="/the-ampersand" data-group display="flex" rowSpan={[4,4,2,2]} colSpan={[2, 2, 1, 1]} borderRadius="10px" bgGradient='radial(100% 100% at 0% 100%, purple.200 0%, rgba(255, 255, 255, 0) 100%)' padding="10px" transition="all .2s cubic-bezier(0.8,0.04,0.4,1)" _hover={{ transform: 'scale(0.98)' }}>
+            <GridItem as={Link} href="/posts/the-ampersand" data-group display="flex" rowSpan={[4,4,2,2]} colSpan={[2, 2, 1, 1]} borderRadius="10px" bgGradient='radial(100% 100% at 0% 100%, purple.200 0%, rgba(255, 255, 255, 0) 100%)' padding="10px" transition="all .2s cubic-bezier(0.8,0.04,0.4,1)" _hover={{ transform: 'scale(0.98)' }}>
                 <Text  fontSize={["18px","18px","18px","20px"]} fontWeight="550" lineHeight="25px" letterSpacing="-0.02em">Learn a bit more about why I use <Text as="span" color="purple.500">the ampersand</Text></Text>
                 <ArrowForwardIcon transition="all .2s cubic-bezier(0.8,0.04,0.4,1)" _groupHover={{ transform: 'rotate(-45deg)'}} h={6} w={6} alignSelf="end"/>
             </GridItem>
