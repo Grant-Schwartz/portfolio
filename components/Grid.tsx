@@ -358,7 +358,7 @@ export const Grid: FC = () => {
           letterSpacing="-0.02em"
           color="white"
         >
-          I've been building a new company called the word! Learn more here.
+          {"I've"} been building a new company called the word! Learn more here.
         </Text>
         <ArrowForwardIcon
           transition="all .2s cubic-bezier(0.8,0.04,0.4,1)"
