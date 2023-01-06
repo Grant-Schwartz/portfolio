@@ -1,18 +1,18 @@
 body {
-  background-image: url('/bg.svg') !important;
+  background-image: url("/bg.svg") !important;
 }
 a {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 .link {
-  color: #2B6CB0 !important;
+  color: #2b6cb0 !important;
 }
 .link:visited {
-  color: #2B6CB0 !important;
+  color: #2b6cb0 !important;
 }
 .link:active {
-  color: #2B6CB0 !important;
+  color: #2b6cb0 !important;
 }
