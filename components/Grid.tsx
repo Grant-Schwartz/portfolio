@@ -63,7 +63,7 @@ export const Grid: FC = () => {
             height="100%"
             width="100%"
             objectFit="cover"
-            src="/me.jpeg"
+            src="/me.jpg"
             borderRadius="10px"
           />
         </GridItem>
