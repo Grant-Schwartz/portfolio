@@ -88,7 +88,7 @@ export const Grid: FC = () => {
           >
             Learn about how I built my first company, Flow Fantasy, and{" "}
             <Text as="span" color="pink.500">
-              how I royally messed it up
+              how I kinda messed it up
             </Text>
           </Text>
           <ArrowForwardIcon
