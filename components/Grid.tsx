@@ -220,7 +220,7 @@ export const Grid: FC = () => {
             lineHeight="25px"
             letterSpacing="-0.02em"
           >
-            I&#39;m currently a freshman at{" "}
+            I&#39;m currently a sophomore at{" "}
             <Text as="span" color="red.500">
               Washington University in St. Louis.
             </Text>
